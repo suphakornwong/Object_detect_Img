@@ -9,7 +9,7 @@ def main():
     st.title("Project Snail Detection")
     st.sidebar.write('<p style="font-size: 18px; font-weight: bold;">งานวิจัยของศุภกร วงษ์เรืองพิบูล</p>', unsafe_allow_html=True)
 
-    model_path = "BestObjectDetect.pt"
+    model_path = "BestObjectDetect".pt"
     st.sidebar.success("Model loaded successfully...")
     uploaded_file = st.sidebar.file_uploader("เลือกไฟล์ภาพ...", type=["jpg", "jpeg", "png"])
     if uploaded_file is not None:
